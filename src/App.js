@@ -116,7 +116,7 @@ function App({ web3Modal }) {
               address: <br/> <strong>Solana:</strong> GzVJprEByS5AEkUgzfikQT952D5RCZadeT8tqbUu84YG<br/>
               <strong>Ethereum:</strong> 0xE9668a7601aAbf5ceC8EB8f5F9001A9f97F1c949
             </p>
-            <div className="fw-light fst-italic">* Use on your own risks</div>
+            <div className="fw-light fst-italic">* Use at your own risks</div>
           </div>
         </div>
         <div className="col-10 mt-3">

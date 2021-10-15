@@ -55,7 +55,7 @@ function App({ web3Modal }) {
         pushLog("The target network doesn't support yet, please submit a issue");
         return;
       }
-      const targetAddress = `0x${_.trimStart(transferOutProposal.targetAddress.toString('hex'), '0')}`.toUpperCase();
+      const targetAddress = `0x${transferOutProposal.targetAddress.toString('hex').substring(24,64)}`.toUpperCase();
       pushLog(`Target Address: ${targetAddress}`);
       const matchAddress = targetAddress === metamaskConnection.address.toUpperCase();
       if (!matchAddress) {
